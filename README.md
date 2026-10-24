@@ -53,7 +53,7 @@ To test a real model, pass an Ollama or API model to `--model` (adapters in `age
 
 ## Related tools
 
-[garak](https://github.com/NVIDIA/garak), [promptfoo](https://www.promptfoo.dev/), and [PyRIT](https://github.com/Azure/PyRIT) cover general LLM red-teaming. AgentProbe focuses on agents and their tool calls.
+[garak](https://github.com/NVIDIA/garak), [promptfoo](https://www.promptfoo.dev/), and [PyRIT](https://github.com/Azure/PyRIT) are broad red-teaming frameworks; [AgentDojo](https://github.com/ethz-spylab/agentdojo) is the closest research benchmark. AgentProbe is a minimal, offline-first harness for A/B testing a single defense's effect on tool-call injection.
 
 ## License
 
