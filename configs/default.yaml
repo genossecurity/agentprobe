@@ -1,0 +1,14 @@
+# Default AgentProbe experiment. Runs fully offline against the mock model.
+models:
+  - mock
+  # - ollama:llama3        # uncomment once you implement the Ollama adapter
+
+defenses:
+  - none
+  - input_filter
+  - context_tagging
+  - allowlist
+  - output_filter
+  - all
+
+trials: 5
